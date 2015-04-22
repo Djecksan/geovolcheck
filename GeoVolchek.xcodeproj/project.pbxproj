@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40086E401AE52B01001368C8 /* GeoVolchek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40086E3E1AE52B01001368C8 /* GeoVolchek.xcdatamodeld */; };
+		40086E4E1AE52E0D001368C8 /* ETCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40086E4D1AE52E0D001368C8 /* ETCoreDataManager.m */; };
+		4044E3F01AE684E600A07B0D /* GEOLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E3EF1AE684E600A07B0D /* GEOLocationCell.m */; };
+		4044E3F21AE68B6C00A07B0D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4044E3F11AE68B6C00A07B0D /* CoreData.framework */; };
+		409BA6BB1AE4E87700945C73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 409BA6BA1AE4E87700945C73 /* main.m */; };
+		409BA6BE1AE4E87700945C73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 409BA6BD1AE4E87700945C73 /* AppDelegate.m */; };
+		409BA6C11AE4E87700945C73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 409BA6C01AE4E87700945C73 /* ViewController.m */; };
+		409BA6C41AE4E87700945C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409BA6C21AE4E87700945C73 /* Main.storyboard */; };
+		409BA6C61AE4E87700945C73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409BA6C51AE4E87700945C73 /* Images.xcassets */; };
+		409BA6C91AE4E87700945C73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 409BA6C71AE4E87700945C73 /* LaunchScreen.xib */; };
+		409BA6D51AE4E87700945C73 /* GeoVolchekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 409BA6D41AE4E87700945C73 /* GeoVolchekTests.m */; };
+		409BA6E01AE4E8B900945C73 /* GEOLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 409BA6DF1AE4E8B900945C73 /* GEOLocationManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		409BA6CF1AE4E87700945C73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409BA6AD1AE4E87700945C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409BA6B41AE4E87700945C73;
+			remoteInfo = GeoVolchek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40086E3F1AE52B01001368C8 /* GeoVolchek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeoVolchek.xcdatamodel; sourceTree = "<group>"; };
+		40086E4C1AE52E0D001368C8 /* ETCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETCoreDataManager.h; path = ETCoreDataManager/ETCoreDataManager.h; sourceTree = "<group>"; };
+		40086E4D1AE52E0D001368C8 /* ETCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ETCoreDataManager.m; path = ETCoreDataManager/ETCoreDataManager.m; sourceTree = "<group>"; };
+		4044E3EE1AE684E600A07B0D /* GEOLocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOLocationCell.h; sourceTree = "<group>"; };
+		4044E3EF1AE684E600A07B0D /* GEOLocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEOLocationCell.m; sourceTree = "<group>"; };
+		4044E3F11AE68B6C00A07B0D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		409BA6B51AE4E87700945C73 /* GeoVolchek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoVolchek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		409BA6B91AE4E87700945C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409BA6BA1AE4E87700945C73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		409BA6BC1AE4E87700945C73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		409BA6BD1AE4E87700945C73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		409BA6BF1AE4E87700945C73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		409BA6C01AE4E87700945C73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		409BA6C31AE4E87700945C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		409BA6C51AE4E87700945C73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		409BA6C81AE4E87700945C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		409BA6CE1AE4E87700945C73 /* GeoVolchekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoVolchekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		409BA6D31AE4E87700945C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409BA6D41AE4E87700945C73 /* GeoVolchekTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoVolchekTests.m; sourceTree = "<group>"; };
+		409BA6DE1AE4E8B900945C73 /* GEOLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOLocationManager.h; sourceTree = "<group>"; };
+		409BA6DF1AE4E8B900945C73 /* GEOLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEOLocationManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		409BA6B21AE4E87700945C73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4044E3F21AE68B6C00A07B0D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409BA6CB1AE4E87700945C73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40086E4B1AE52DFB001368C8 /* ETCoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				40086E4C1AE52E0D001368C8 /* ETCoreDataManager.h */,
+				40086E4D1AE52E0D001368C8 /* ETCoreDataManager.m */,
+			);
+			name = ETCoreDataManager;
+			sourceTree = "<group>";
+		};
+		409BA6AC1AE4E87700945C73 = {
+			isa = PBXGroup;
+			children = (
+				409BA6B71AE4E87700945C73 /* GeoVolchek */,
+				409BA6D11AE4E87700945C73 /* GeoVolchekTests */,
+				409BA6B61AE4E87700945C73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		409BA6B61AE4E87700945C73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409BA6B51AE4E87700945C73 /* GeoVolchek.app */,
+				409BA6CE1AE4E87700945C73 /* GeoVolchekTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		409BA6B71AE4E87700945C73 /* GeoVolchek */ = {
+			isa = PBXGroup;
+			children = (
+				40086E4B1AE52DFB001368C8 /* ETCoreDataManager */,
+				409BA6BC1AE4E87700945C73 /* AppDelegate.h */,
+				409BA6BD1AE4E87700945C73 /* AppDelegate.m */,
+				409BA6BF1AE4E87700945C73 /* ViewController.h */,
+				409BA6C01AE4E87700945C73 /* ViewController.m */,
+				409BA6C21AE4E87700945C73 /* Main.storyboard */,
+				409BA6C51AE4E87700945C73 /* Images.xcassets */,
+				409BA6C71AE4E87700945C73 /* LaunchScreen.xib */,
+				409BA6B81AE4E87700945C73 /* Supporting Files */,
+				409BA6DE1AE4E8B900945C73 /* GEOLocationManager.h */,
+				409BA6DF1AE4E8B900945C73 /* GEOLocationManager.m */,
+				4044E3EE1AE684E600A07B0D /* GEOLocationCell.h */,
+				4044E3EF1AE684E600A07B0D /* GEOLocationCell.m */,
+			);
+			path = GeoVolchek;
+			sourceTree = "<group>";
+		};
+		409BA6B81AE4E87700945C73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4044E3F11AE68B6C00A07B0D /* CoreData.framework */,
+				409BA6B91AE4E87700945C73 /* Info.plist */,
+				409BA6BA1AE4E87700945C73 /* main.m */,
+				40086E3E1AE52B01001368C8 /* GeoVolchek.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		409BA6D11AE4E87700945C73 /* GeoVolchekTests */ = {
+			isa = PBXGroup;
+			children = (
+				409BA6D41AE4E87700945C73 /* GeoVolchekTests.m */,
+				409BA6D21AE4E87700945C73 /* Supporting Files */,
+			);
+			path = GeoVolchekTests;
+			sourceTree = "<group>";
+		};
+		409BA6D21AE4E87700945C73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				409BA6D31AE4E87700945C73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		409BA6B41AE4E87700945C73 /* GeoVolchek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409BA6D81AE4E87700945C73 /* Build configuration list for PBXNativeTarget "GeoVolchek" */;
+			buildPhases = (
+				409BA6B11AE4E87700945C73 /* Sources */,
+				409BA6B21AE4E87700945C73 /* Frameworks */,
+				409BA6B31AE4E87700945C73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoVolchek;
+			productName = GeoVolchek;
+			productReference = 409BA6B51AE4E87700945C73 /* GeoVolchek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		409BA6CD1AE4E87700945C73 /* GeoVolchekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409BA6DB1AE4E87700945C73 /* Build configuration list for PBXNativeTarget "GeoVolchekTests" */;
+			buildPhases = (
+				409BA6CA1AE4E87700945C73 /* Sources */,
+				409BA6CB1AE4E87700945C73 /* Frameworks */,
+				409BA6CC1AE4E87700945C73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409BA6D01AE4E87700945C73 /* PBXTargetDependency */,
+			);
+			name = GeoVolchekTests;
+			productName = GeoVolchekTests;
+			productReference = 409BA6CE1AE4E87700945C73 /* GeoVolchekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		409BA6AD1AE4E87700945C73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GEO;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = MaximumSoft;
+				TargetAttributes = {
+					409BA6B41AE4E87700945C73 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					409BA6CD1AE4E87700945C73 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 409BA6B41AE4E87700945C73;
+					};
+				};
+			};
+			buildConfigurationList = 409BA6B01AE4E87700945C73 /* Build configuration list for PBXProject "GeoVolchek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 409BA6AC1AE4E87700945C73;
+			productRefGroup = 409BA6B61AE4E87700945C73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				409BA6B41AE4E87700945C73 /* GeoVolchek */,
+				409BA6CD1AE4E87700945C73 /* GeoVolchekTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		409BA6B31AE4E87700945C73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409BA6C41AE4E87700945C73 /* Main.storyboard in Resources */,
+				409BA6C91AE4E87700945C73 /* LaunchScreen.xib in Resources */,
+				409BA6C61AE4E87700945C73 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409BA6CC1AE4E87700945C73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		409BA6B11AE4E87700945C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4044E3F01AE684E600A07B0D /* GEOLocationCell.m in Sources */,
+				409BA6C11AE4E87700945C73 /* ViewController.m in Sources */,
+				40086E401AE52B01001368C8 /* GeoVolchek.xcdatamodeld in Sources */,
+				409BA6BE1AE4E87700945C73 /* AppDelegate.m in Sources */,
+				409BA6E01AE4E8B900945C73 /* GEOLocationManager.m in Sources */,
+				409BA6BB1AE4E87700945C73 /* main.m in Sources */,
+				40086E4E1AE52E0D001368C8 /* ETCoreDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409BA6CA1AE4E87700945C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409BA6D51AE4E87700945C73 /* GeoVolchekTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		409BA6D01AE4E87700945C73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 409BA6B41AE4E87700945C73 /* GeoVolchek */;
+			targetProxy = 409BA6CF1AE4E87700945C73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		409BA6C21AE4E87700945C73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409BA6C31AE4E87700945C73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		409BA6C71AE4E87700945C73 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409BA6C81AE4E87700945C73 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		409BA6D61AE4E87700945C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		409BA6D71AE4E87700945C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		409BA6D91AE4E87700945C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoVolchek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		409BA6DA1AE4E87700945C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoVolchek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		409BA6DC1AE4E87700945C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoVolchekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoVolchek.app/GeoVolchek";
+			};
+			name = Debug;
+		};
+		409BA6DD1AE4E87700945C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoVolchekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoVolchek.app/GeoVolchek";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409BA6B01AE4E87700945C73 /* Build configuration list for PBXProject "GeoVolchek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409BA6D61AE4E87700945C73 /* Debug */,
+				409BA6D71AE4E87700945C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409BA6D81AE4E87700945C73 /* Build configuration list for PBXNativeTarget "GeoVolchek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409BA6D91AE4E87700945C73 /* Debug */,
+				409BA6DA1AE4E87700945C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409BA6DB1AE4E87700945C73 /* Build configuration list for PBXNativeTarget "GeoVolchekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409BA6DC1AE4E87700945C73 /* Debug */,
+				409BA6DD1AE4E87700945C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		40086E3E1AE52B01001368C8 /* GeoVolchek.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40086E3F1AE52B01001368C8 /* GeoVolchek.xcdatamodel */,
+			);
+			currentVersion = 40086E3F1AE52B01001368C8 /* GeoVolchek.xcdatamodel */;
+			path = GeoVolchek.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 409BA6AD1AE4E87700945C73 /* Project object */;
+}
